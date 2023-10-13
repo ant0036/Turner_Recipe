@@ -1,0 +1,32 @@
+$light-purple: #EFDFF8;
+$dark-purple: #6A5177;
+$light-yellow: #FCF2CB;
+$header:"coquette", serif;
+$body: "gibson", sans-serif;
+
+h1, h2 {
+    font-family: $header;
+    color: $dark-purple;
+}
+
+h3, p, li {
+    font-family: $body;
+    color: $dark-purple;
+}
+
+header, footer {
+    background-color: $dark-purple;
+    p, li {
+        color: $light-purple;
+    }
+}
+
+li {
+    list-style: none;
+}
+.yellow {
+    background-color: $light-yellow;
+}
+.purple {
+    background-color: $light-purple;
+}

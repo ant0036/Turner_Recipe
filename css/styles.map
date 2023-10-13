@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss"
+	],
+	"sourcesContent": [
+		"$light-purple: #EFDFF8;\r\n$dark-purple: #6A5177;\r\n$light-yellow: #FCF2CB;\r\n$header:\"coquette\", serif;\r\n$body: \"gibson\", sans-serif;\r\n\r\nh1, h2 {\r\n    font-family: $header;\r\n    color: $dark-purple;\r\n}\r\n\r\nh3, p, li {\r\n    font-family: $body;\r\n    color: $dark-purple;\r\n}\r\n\r\nheader, footer {\r\n    background-color: $dark-purple;\r\n    p, li {\r\n        color: $light-purple;\r\n    }\r\n}\r\n\r\nli {\r\n    list-style: none;\r\n}\r\n.yellow {\r\n    background-color: $light-yellow;\r\n}\r\n.purple {\r\n    background-color: $light-purple;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAMA,AAAA,EAAE,EAAE,EAAE,CAAC;EACH,WAAW,EAJP,UAAU,EAAE,KAAK;EAKrB,KAAK,EAPK,OAAO,GAQpB;;;AAED,AAAA,EAAE,EAAE,CAAC,EAAE,EAAE,CAAC;EACN,WAAW,EARR,QAAQ,EAAE,UAAU;EASvB,KAAK,EAZK,OAAO,GAapB;;;AAED,AAAA,MAAM,EAAE,MAAM,CAAC;EACX,gBAAgB,EAhBN,OAAO,GAoBpB;;EALD,AAEI,MAFE,CAEF,CAAC,EAFL,MAAM,CAEC,EAAE,EAFD,MAAM,CAEV,CAAC,EAFG,MAAM,CAEP,EAAE,CAAC;IACF,KAAK,EAnBE,OAAO,GAoBjB;;;AAGL,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI,GACnB;;;AACD,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAzBL,OAAO,GA0BrB;;;AACD,AAAA,OAAO,CAAC;EACJ,gBAAgB,EA9BL,OAAO,GA+BrB"
+}

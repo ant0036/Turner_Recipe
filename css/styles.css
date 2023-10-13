@@ -1,0 +1,30 @@
+/* line 7, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/styles.scss */
+h1, h2 {
+  font-family: "coquette", serif;
+  color: #6A5177; }
+
+/* line 12, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/styles.scss */
+h3, p, li {
+  font-family: "gibson", sans-serif;
+  color: #6A5177; }
+
+/* line 17, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/styles.scss */
+header, footer {
+  background-color: #6A5177; }
+  /* line 19, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/styles.scss */
+  header p, header li, footer p, footer li {
+    color: #EFDFF8; }
+
+/* line 24, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/styles.scss */
+li {
+  list-style: none; }
+
+/* line 27, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/styles.scss */
+.yellow {
+  background-color: #FCF2CB; }
+
+/* line 30, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/styles.scss */
+.purple {
+  background-color: #EFDFF8; }
+
+/*# sourceMappingURL=styles.css.map */
