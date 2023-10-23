@@ -1,0 +1,247 @@
+.dropdown {
+    display: none;
+}
+h3, p, li, label {
+    font-family: $body;
+    color: $dark-purple;
+}
+p {
+    margin: 0;
+}
+h1, h2, .browse {
+    font-family: $header;
+    color: $dark-purple;
+    font-size: 2rem;
+}
+
+h2  {
+    background-color: #fff;
+    padding-right: 0.2rem;
+}
+.browse p {
+    background-color: #fff;
+    z-index: 5;
+    font-family: $header;
+    font-size: 1.6rem;
+    padding-right: 0.3rem;
+}
+#search {
+    h1{
+        background-color: #fff;
+    }
+}
+a {
+    text-decoration: none !important;
+    p, li {
+        text-decoration: none;
+        :hover {
+            text-decoration: none;
+        }
+    }
+}
+ul {
+    padding-left:0;
+}
+img {
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+.yellow {
+    background-color: $light-yellow;
+    padding: 1rem;
+   
+}
+.purple {
+    background-color: $light-purple;
+    padding: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.line {
+    background-image: url(../images/dotted-line.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin-top: 0.5rem;
+    
+}
+
+.right {
+    .row {
+        border-right: $dark-purple solid 0.2rem;
+    }
+    .desc {
+        border-bottom: $dark-purple solid 0.2rem;
+    }
+}
+
+.left {
+    .row {
+        border-left: $dark-purple solid 0.2rem;
+    }
+    .desc {
+        border-bottom: $dark-purple solid 0.2rem;
+    }
+}
+
+
+
+section {
+    padding: 1rem 0;
+}
+
+.first {
+    padding-top: 0;
+}
+
+.pattern {
+    background-image: url(../images/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    p, li, h2 {
+        color:$light-purple;
+        background-color: transparent;
+    }
+}
+
+.box {
+    li {
+        :hover {
+            border: $light-yellow solid 3px;
+            background-color: $dark-purple;
+            border-radius: 1rem;
+            color: $light-yellow;
+            }
+    
+    }
+   
+}
+
+.btn-square-sm {
+    width: 5rem !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 5rem !important;
+    text-align: center;
+    padding: 0px;
+    font-size:0.9rem;
+    border: $light-yellow solid 3px;
+    background-color: $dark-purple;
+    border-radius: 1rem;
+    
+}
+
+
+.news h2 {
+    color: $light-yellow;
+    font-weight: 700;
+}
+form #email {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 0.2rem $light-yellow;
+}
+
+label {
+    color: $light-yellow;
+    font-weight: 700;
+}
+
+#submit {
+    // padding: 0 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: $body;
+    font-weight: 700;
+    background-color: $light-yellow;
+    margin: 0 auto;
+}
+.font {
+    font-family: $body;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+// @media (max-width: 991) {
+//     .submit {
+//         padding: 0 0.5rem;
+//     }
+// }
+
+.recipes .yellow h2 {
+    background-color: $light-yellow;
+}
+.recipes .purple h2{
+    background-color: $light-purple;
+}
+
+.hero img {
+    padding: 1rem 0;
+}
+#recipe li {
+    list-style: disc;
+}
+#recipe {
+    h1 {
+        background-color: #fff;
+    }
+}
+.more {
+    li {
+        list-style: none !important;
+    }
+    
+}
+
+.steps {
+
+    h2 {
+        background-color: transparent;
+    }
+    li {
+        padding: 0.2rem 0;
+    }
+}
+
+.background {
+    background-image: url(../images/pattern-tall.png);
+    background-repeat: none;
+    background-size: cover;
+   
+}
+.fill {
+    background-color: #fff;
+    border: $light-purple solid 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    li {
+        margin-left: 1rem;
+        padding-left:1rem; 
+        
+       }
+}
+
+.outline {
+    border: $dark-purple 3px solid;
+}
+
+.response {
+    font-family: $body;
+    font-style: italic;
+    padding-top: 1rem;
+}
+.dark-purple {
+    background-color: $dark-purple;
+
+} 
+
+.stripes
+h2 {
+    background-color: transparent;
+}
+.white {
+    background-color: #fff;
+}

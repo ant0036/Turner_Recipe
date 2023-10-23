@@ -1,0 +1,18 @@
+header {
+    background-color: $dark-purple;
+    padding-top: 1rem;
+    p, li, a {
+        color: $light-purple;
+        font-family: $header;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+    
+}
+
+.all {
+    img {
+        width:75%;
+    }
+}
