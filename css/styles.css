@@ -61,85 +61,94 @@ h2 {
 /* line 33, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 a {
   text-decoration: none !important; }
-  /* line 35, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
-  a p, a li {
-    text-decoration: none; }
-    /* line 37, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
-    a p :hover, a li :hover {
-      text-decoration: none; }
 
-/* line 42, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 37, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+p, li {
+  text-decoration: none; }
+  /* line 39, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+  p :hover, li :hover {
+    text-decoration: none; }
+
+/* line 45, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+header a:hover {
+  color: #FCF2CB; }
+
+/* line 49, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+.none a:hover {
+  color: #EFDFF8 !important; }
+
+/* line 53, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 ul {
   padding-left: 0; }
 
-/* line 45, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 56, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 img {
   width: 100%; }
 
-/* line 48, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 59, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 li {
   list-style: none; }
 
-/* line 51, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 62, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .yellow {
   background-color: #FCF2CB;
   padding: 1rem; }
 
-/* line 56, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 67, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .purple {
   background-color: #EFDFF8;
   padding: 1rem;
   margin-top: 1rem; }
 
-/* line 63, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 74, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .line {
   background-image: url(../images/dotted-line.png);
   background-repeat: no-repeat;
   z-index: -1;
   margin-top: 0.5rem; }
 
-/* line 72, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 83, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .right .row {
   border-right: #6A5177 solid 0.2rem; }
 
-/* line 75, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 86, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .right .desc {
   border-bottom: #6A5177 solid 0.2rem; }
 
-/* line 81, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 92, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .left .row {
   border-left: #6A5177 solid 0.2rem; }
 
-/* line 84, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 95, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .left .desc {
   border-bottom: #6A5177 solid 0.2rem; }
 
-/* line 91, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 102, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 section {
   padding: 1rem 0; }
 
-/* line 95, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 106, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .first {
   padding-top: 0; }
 
-/* line 99, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 110, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .pattern {
   background-image: url(../images/pattern.png);
   background-repeat: no-repeat;
   background-size: cover; }
-  /* line 103, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+  /* line 114, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
   .pattern p, .pattern li, .pattern h2 {
     color: #EFDFF8;
     background-color: transparent; }
 
-/* line 111, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 122, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .box li :hover {
   border: #FCF2CB solid 3px;
   background-color: #6A5177;
   border-radius: 1rem;
   color: #FCF2CB; }
 
-/* line 122, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 133, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .btn-square-sm {
   width: 5rem !important;
   max-width: 100% !important;
@@ -152,23 +161,23 @@ section {
   background-color: #6A5177;
   border-radius: 1rem; }
 
-/* line 137, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 148, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .news h2 {
   color: #FCF2CB;
   font-weight: 700; }
 
-/* line 141, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 152, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 form #email {
   background-color: transparent;
   border: none;
   border-bottom: solid 0.2rem #FCF2CB; }
 
-/* line 147, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 158, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 label {
   color: #FCF2CB;
   font-weight: 700; }
 
-/* line 152, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 163, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 #submit {
   border-radius: 1rem;
   border: none;
@@ -177,81 +186,81 @@ label {
   background-color: #FCF2CB;
   margin: 0 auto; }
 
-/* line 161, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 172, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .font {
   font-family: "gibson", sans-serif;
   font-size: 1.8rem;
   font-weight: 400; }
 
-/* line 174, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 185, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .recipes .yellow h2 {
   background-color: #FCF2CB; }
 
-/* line 177, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 188, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .recipes .purple h2 {
   background-color: #EFDFF8; }
 
-/* line 181, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 192, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .hero img {
   padding: 1rem 0; }
 
-/* line 184, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 195, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 #recipe li {
   list-style: disc; }
 
-/* line 188, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 199, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 #recipe h1 {
   background-color: #fff; }
 
-/* line 193, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 204, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .more li {
   list-style: none !important; }
 
-/* line 201, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 212, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .steps h2 {
   background-color: transparent; }
 
-/* line 204, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 215, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .steps li {
   padding: 0.2rem 0; }
 
-/* line 209, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 220, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .background {
   background-image: url(../images/pattern-tall.png);
   background-repeat: none;
   background-size: cover; }
 
-/* line 215, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 226, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .fill {
   background-color: #fff;
   border: #EFDFF8 solid 0.5rem;
   border-radius: 1rem;
   margin: 1rem; }
-  /* line 220, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+  /* line 231, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
   .fill li {
     margin-left: 1rem;
     padding-left: 1rem; }
 
-/* line 227, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 238, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .outline {
   border: #6A5177 3px solid; }
 
-/* line 231, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 242, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .response {
   font-family: "gibson", sans-serif;
   font-style: italic;
   padding-top: 1rem; }
 
-/* line 236, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 247, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .dark-purple {
   background-color: #6A5177; }
 
-/* line 241, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 252, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .stripes
 h2 {
   background-color: transparent; }
 
-/* line 245, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 256, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .white {
   background-color: #fff; }
 

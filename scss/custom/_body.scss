@@ -32,12 +32,23 @@ h2  {
 }
 a {
     text-decoration: none !important;
+ 
+    }
     p, li {
         text-decoration: none;
         :hover {
             text-decoration: none;
+            ;
         }
     }
+
+header a:hover {
+    color: $light-yellow;
+}
+
+.none a:hover {
+   
+        color: $light-purple!important;
 }
 ul {
     padding-left:0;
