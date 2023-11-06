@@ -125,7 +125,7 @@ li {
 
 /* line 102, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 section {
-  padding: 1rem 0; }
+  margin-bottom: 2rem; }
 
 /* line 106, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .first {
@@ -161,23 +161,27 @@ section {
   background-color: #6A5177;
   border-radius: 1rem; }
 
-/* line 148, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 146, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+.news {
+  padding: 1rem 0; }
+
+/* line 150, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .news h2 {
   color: #FCF2CB;
   font-weight: 700; }
 
-/* line 152, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 154, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 form #email {
   background-color: transparent;
   border: none;
   border-bottom: solid 0.2rem #FCF2CB; }
 
-/* line 158, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 160, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 label {
   color: #FCF2CB;
   font-weight: 700; }
 
-/* line 163, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 165, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 #submit {
   border-radius: 1rem;
   border: none;
@@ -186,82 +190,92 @@ label {
   background-color: #FCF2CB;
   margin: 0 auto; }
 
-/* line 172, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 174, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .font {
   font-family: "gibson", sans-serif;
   font-size: 1.8rem;
   font-weight: 400; }
 
-/* line 185, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 187, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .recipes .yellow h2 {
   background-color: #FCF2CB; }
 
-/* line 188, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 190, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .recipes .purple h2 {
   background-color: #EFDFF8; }
 
-/* line 192, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 194, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .hero img {
   padding: 1rem 0; }
 
-/* line 195, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 197, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 #recipe li {
   list-style: disc; }
 
-/* line 199, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 201, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 #recipe h1 {
   background-color: #fff; }
 
-/* line 204, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 206, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .more li {
   list-style: none !important; }
 
-/* line 212, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 214, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .steps h2 {
   background-color: transparent; }
 
-/* line 215, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 217, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .steps li {
   padding: 0.2rem 0; }
 
-/* line 220, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 222, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .background {
   background-image: url(../images/pattern-tall.png);
   background-repeat: none;
   background-size: cover; }
 
-/* line 226, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 228, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .fill {
   background-color: #fff;
   border: #EFDFF8 solid 0.5rem;
   border-radius: 1rem;
   margin: 1rem; }
-  /* line 231, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+  /* line 233, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
   .fill li {
     margin-left: 1rem;
     padding-left: 1rem; }
 
-/* line 238, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 240, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .outline {
   border: #6A5177 3px solid; }
+  /* line 243, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+  .outline :hover {
+    color: #6A5177; }
+  /* line 246, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+  .outline a {
+    color: #6A5177; }
 
-/* line 242, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 251, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .response {
   font-family: "gibson", sans-serif;
   font-style: italic;
   padding-top: 1rem; }
 
-/* line 247, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 256, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .dark-purple {
   background-color: #6A5177; }
 
-/* line 252, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 261, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .stripes
 h2 {
   background-color: transparent; }
 
-/* line 256, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+/* line 265, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
 .white {
   background-color: #fff; }
+
+/* line 269, ../../../Documents/coding/Recipe Site/Turner_Recipe/scss/custom/_body.scss */
+.stripes {
+  padding: 1rem 0; }
 
 /*# sourceMappingURL=styles.css.map */
